@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+
+
+/*Definição do estilo de cor, imagem de fundo definida e alinhmanetos das informações qu estão descritas no body*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arvo', serif;
+    background-image: url('img/fundo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*Definições das características de cada definição escolhida no HTML*/
+/*Alterações realizada mudança das cores*/
+.card-body{
+    background-color: rgb(197, 223, 245);
+}
+
+.cidade{
+    font-size: 32px;
+}
+
+.data {
+    font-size: 16px;
+}
+
+.container-temp{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(245, 23, 23, 0.945);
+    box-shadow: 5px 6px rgba(7, 7, 7, 0.6);
+    cursor: pointer;
+
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather{
+    font-size: 32px;
+    background-color: rgb(9, 190, 88);
+}
+
+.card{
+background-color: rgb(6, 6, 7);
+border-bottom: 200%;
+box-sizing: 200%;
+}
+
+.card-header{
+    background-color: rgb(129, 208, 240) ;
+}
+
+.low-high {
+    font-size: 22px;
+
+}
